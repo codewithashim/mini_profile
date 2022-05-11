@@ -1,0 +1,28 @@
+@import './profile';
+@import '../config/variable';
+@import '../base/base';
+@import '../layout/layout';
+
+
+
+.btn{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: $container-color;
+    background: $first-color;
+    padding: 0.8rem 1.5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: 1s;
+    outline: none;
+    border: none;
+
+    &:hover{
+        color: $first-color;
+        background: transparent;
+        border: 1px solid $text-color-light;
+        transform: scale(1);
+    }
+
+}
